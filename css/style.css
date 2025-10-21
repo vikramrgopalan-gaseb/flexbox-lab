@@ -18,6 +18,11 @@ nav {
  justify-content: space-between;
 }
 
+.flex-child {
+ display: flex;
+ justify-content: space-between;   
+}
+
 p {
   margin: 0;
 }
