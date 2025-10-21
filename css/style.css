@@ -21,13 +21,16 @@ nav.flex-parent {
 #actions.flex-child {
  display: flex;
  justify-content: space-between;
- flex-direction: row;   
+ flex-direction: row;
+ align-items: center;
+ gap: 30px;   
 }
 
 #destinations.flex-child {
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 30px;
 }
 
 p {
@@ -58,6 +61,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 30px;
 }
 
 h1,
@@ -93,7 +97,7 @@ main.flex-parent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav button {
@@ -133,7 +137,7 @@ nav button {
 
 #subnav.flex-child {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
 }
 
@@ -154,5 +158,5 @@ nav button {
 div.card-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
